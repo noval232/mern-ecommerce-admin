@@ -27,10 +27,10 @@ if (process.env.NODE_ENV === 'production') {
 
 //ini digunakan untuk membuat server di port 5000
 //panggil fungsi connectDB untuk konek ke database
-app.listen(PORT, () => {
-  connectDB();
-  console.log('Server running at http://localhost:' + PORT);
-});
+// app.listen(PORT, () => {
+//   connectDB();
+//   console.log('Server running at http://localhost:' + PORT);
+// });
 
 // Password mongoDB:g1O1U9ggC75I2hyK
 
