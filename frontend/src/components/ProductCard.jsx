@@ -39,12 +39,12 @@ export default function ProductCard({ product }) {
     }
   };
 
-  console.log('isi updated product: ', updatedProduct);
+  console.log('isi updated product xxl: ', updatedProduct);
 
   return (
     <>
       <div className="card bg-base-100 w-96 h-100 shadow-lg hover:shadow-2xl hover:-translate-y-2 transition duration-300">
-        <figure className="perspective-dramatic">
+        <figure className="perspective-dramatic bg-amber-50">
           <img
             loading="lazy"
             src={product.image}
